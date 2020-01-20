@@ -30,6 +30,10 @@ dmesg | grep -i tty
 
 # Launch minicom after finding the device file:
 minicom -D /dev/ttyUSB0 -b 115200
+# or on mac:
+minicom -D /dev/cu.HC-05-SPPDev -b 115200
+
+# NOTE: One mac, the esc key is the meta key for the minicom terminal.
 ```
 
 ### for bluetooth:
